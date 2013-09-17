@@ -9,9 +9,9 @@
     <description>H2 Database support for Alfresco</description>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <groupId>com.ixxus</groupId>
+        <artifactId>ixxus-maven-super-pom</artifactId>
+        <version>1.0.8</version>
     </parent>
 
     <scm>

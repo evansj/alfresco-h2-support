@@ -4,7 +4,6 @@
     <artifactId>h2-support</artifactId>
     <packaging>jar</packaging>
     <version>1.6-SNAPSHOT</version>
-    <classifier>IXXUS</classifier>
     <name>h2-support</name>
     <url>http://www.skuro.tk</url>
     <description>H2 Database support for Alfresco</description>

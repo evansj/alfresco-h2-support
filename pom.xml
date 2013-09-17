@@ -4,6 +4,7 @@
     <artifactId>h2-support</artifactId>
     <packaging>jar</packaging>
     <version>1.6-SNAPSHOT</version>
+    <classifier>IXXUS</classifier>
     <name>h2-support</name>
     <url>http://www.skuro.tk</url>
     <description>H2 Database support for Alfresco</description>
@@ -15,10 +16,21 @@
     </parent>
 
     <scm>
-        <connection>scm:git:git://github.com/skuro/alfresco-h2-support.git</connection>
-        <developerConnection>scm:git:git@github.com:skuro/alfresco-h2-support.git</developerConnection>
-        <url>https://github.com/skuro/alfresco-h2-support</url>
+        <connection>scm:git:git://github.com/evansj/alfresco-h2-support.git</connection>
+        <developerConnection>scm:git:git@github.com:evansj/alfresco-h2-support.git</developerConnection>
+        <url>https://github.com/evansj/alfresco-h2-support</url>
     </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>ixxus-releases</id>
+            <url>https://inexus.ixxus.co.uk/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>ixxus-snapshots</id>
+            <url>https://inexus.ixxus.co.uk/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <licenses>
         <license>
